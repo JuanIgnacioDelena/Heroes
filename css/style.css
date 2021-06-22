@@ -5,6 +5,12 @@
     font-family: roboto;       
 }
 
+body {
+    margin: 0 auto;
+    width: 1024px;
+
+}
+
 #Descuentos {
     height: 38px;
     font-family: roboto;
@@ -99,5 +105,5 @@ footer {
     top: 972px;
     padding: 16px;
     color: white;
-    width: 100%;
+    width: 1024px;
 }
