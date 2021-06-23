@@ -21,6 +21,8 @@ body {
     
 }
 
+main {flex-direction: column;}
+
 #Título {
     height: 101px;
     background-attachment:fixed;
@@ -35,7 +37,7 @@ body {
     position: relative;
     height: 530px;
     width: 300px;
-    float:left;
+    display: inline-block;
     top: 150px;
     margin-left: 28px;
 }
