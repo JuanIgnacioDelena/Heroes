@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    font-family: roboto;       
+}
+
+body {
+    margin: 0 auto;
+    width: 1024px;
+
+}
+
+#Descuentos {
+    height: 38px;
+    font-family: roboto;
+    font-size: 15px;
+    background-color: #1CD1B0;
+    padding: 10px;
+    font-weight:bold;
+    
+}
+
+main {
+    display: flex;
+    width: 1024px;
+    height: 768px;
+    justify-content: space-evenly;
+}
+
+header {
+    position: fixed;
+    width: 1024px;
+    z-index: 100;
+}
+
+#Título {
+    height: 101px;
+    font-family: roboto;
+    font-size: 40px;
+    font-weight: bold;
+    background-color: #00669F;
+    padding: 28px; 
+}
+
+.Personaje {
+    margin-top: 200px;
+    height: 530px;
+    width: 300px;
+}
+
+#Fondo {
+    z-index: 1;
+}
+
+#Fondogris {
+    width: 300px;
+    height: 336px;
+    background-color: #F3F3F3;
+    text-align: justify;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+
+#Cara {
+    z-index: 3;
+}
+
+#Cara img {
+	border-radius: 60px;
+}
+
+
+h1 {
+    width: 171px;
+    height: 35px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+
+}
+
+#Fondoazul {
+    background-color: #00669F;
+    z-index: 2;
+    width: 128px;
+    height: 50px;
+    left: 90px;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+footer {
+    background-color: #00669F;
+    top: 972px;
+    padding: 16px;
+    color: white;
+    width: 1024px;
+}
